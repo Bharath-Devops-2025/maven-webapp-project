@@ -93,19 +93,13 @@
 		
 	</dependencies>
 	
-	<distributionManagement>
-  <snapshotRepository>
-    <id>nexus</id>
-    <name>maven-snapshots</name>
-    <url>http://3.87.199.161:8088/repository/maven-snapshots/</url>
-  </snapshotRepository>
-	<snapshotRepository>
-	      <id>nexus</id>
-	      <name>maven-realse-repo</name>
-	      <url>http://13.220.151.111:8088/repository/maven-realse-repo/</url>
-	    </snapshotRepository>
-	    
-	</distributionManagement>
+ <distributionManagement>
+     <snapshotRepository>
+        <id>snapshots-repo</id>
+        <url>http://3.87.199.161:8088/repository/maven-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
+
 	
 	<build>
 		<finalName>maven-web-application</finalName>
